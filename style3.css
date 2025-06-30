@@ -13,8 +13,6 @@
 .image{
     float: left;
     margin-right: 500px;
-    
-    
    
     
 }
@@ -50,7 +48,6 @@
     padding-top: 10px;
     margin-top: 10px;
     margin-right: 50px;
-    
 }
 
 .menu{
@@ -189,4 +186,3 @@ ul li a:hover{
     color: #ff7200;
     font-size: 65px
 }
-
