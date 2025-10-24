@@ -1,56 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Webpage Design</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills - Chaither A. Jurolan</title>
     <link rel="stylesheet" href="style3.css">
-      
-
+    <link rel="preload" href="walay.jpg" as="image">
 </head>
 <body>
-   
-    
-
     <div class="main">
-        <div class="navbar">
+        <nav class="navbar">
             <div class="icon">
                 <h2 class="logo">LIMEHILLS</h2>
             </div>
-     
-
 
             <div class="menu">
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="index2.html">ABOUT ME</a></li>
                     <li><a href="index3.html">SKILLS</a></li>
-                
                 </ul>
             </div>
 
             <div class="search">
-               
-                <a href="https://search.arduino.cc/search?tab=&q="> <button class="btn">Contact</button></a>
+                <a href="https://search.arduino.cc/search?tab=&q=" target="_blank" rel="noopener">
+                    <button class="btn">Contact</button>
+                </a>
             </div>
-               <div class="image">
-        <img src="walay.jpg" alt="Profile" class="circle-img">
+        </nav>
+
+        <div class="image">
+            <img src="walay.jpg" alt="Chaither A. Jurolan Profile Picture" loading="lazy">
         </div>
 
-        </div> 
-        <div class="content">
-            <h1>CHAITHER A. JUROLAN<br><span>WEB DESIGNER</span> <br>SKILLS</h1>
-            <p class="par">KNOWLEDGE OF MICROSOFT OFFICE(WORD,EXEL,POWERPOINT)<br>
-                           KNOWLEDGE OF COMPUTER LITERACY<br>
-                           KNOWLEDGE OF HARDWARE AND SOFTWARE<br>
-                           WEBSITE DESIGNER<br><br> 
-
-                <button class="cn"><a href=https://www.facebook.com/chaither.jurolan.583>Facebook</a></button>
-
-                
-                    </div>
+        <main class="content">
+            <h1>MY <span>SKILLS</span></h1>
+            <div class="skills-container">
+                <div class="skill-item">
+                    <h3>💼 Microsoft Office Suite</h3>
+                    <p>Word, Excel, PowerPoint</p>
                 </div>
-        </div>
-    
-    </div>
+                <div class="skill-item">
+                    <h3>💻 Computer Literacy</h3>
+                    <p>Advanced computer operations and troubleshooting</p>
+                </div>
+                <div class="skill-item">
+                    <h3>🔧 Hardware & Software</h3>
+                    <p>System maintenance and software installation</p>
+                </div>
+                <div class="skill-item">
+                    <h3>🎨 Web Design</h3>
+                    <p>Creating beautiful and functional websites</p>
+                </div>
+            </div>
 
+            <button class="cn">
+                <a href="https://www.facebook.com/chaither.jurolan.583" target="_blank" rel="noopener">Let's Connect</a>
+            </button>
+        </main>
+    </div>
 </body>
 </html>
